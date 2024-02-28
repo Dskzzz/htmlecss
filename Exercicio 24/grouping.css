@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(150, 66, 186);
+}
+
+h1{
+    background-color: rgb(71, 78, 84);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    border: 2px;
+    padding: 5px;
+    text-align: center;
+}
+
+nav{
+    margin: 5px 5px 5px 5px;
+    background-color: rgb(57, 61, 63);
+    border: 5px;
+    text-align: center;
+}
+
+a{
+    color: rgb(255, 219, 219);
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+}
+
+main{
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    border: 2px;
+    padding: 5px;
+    color: ;
+    
+}
+
+p.paragrafo{
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+article{
+    color: rgb(0, 0, 0);
+    background-color: rgb(247, 177, 177);
+}
+
+
+footer{
+
+    text-align: center;
+    color: aqua;
+    background-color: black;
+    border: 10px;
+    margin: 5px;
+    padding: 2px;
+}

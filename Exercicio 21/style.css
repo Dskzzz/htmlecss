@@ -1,0 +1,15 @@
+@charset "UTF-8"
+
+h1 {
+    color: cadetblue;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    color: cadetblue;
+}
+
+h2 {
+    text-align: right;
+}

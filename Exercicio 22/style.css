@@ -1,0 +1,26 @@
+@charset "UTF-8"
+
+body{
+    background-color: rgb(168, 60, 60);
+}
+
+h1#html {
+    color: azure;
+    background-color: black;
+
+}
+
+.basico{
+    background-color: blue;
+    color: white;
+}
+
+.intermediario{
+    background-color: crimson;
+    color: black;
+}
+
+.avancado{
+    background-color: rgb(0, 255, 76);
+    color: rgb(139, 0, 0);
+}

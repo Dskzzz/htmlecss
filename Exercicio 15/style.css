@@ -1,0 +1,24 @@
+@charset "UTF-8"
+
+body{
+
+        background-color: darkblue;
+}
+
+h1{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 40px;
+        color: black;
+        font-style: normal;
+        nav-left: auto;
+        background-color: aqua;
+}
+
+p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: chartreuse;
+}
+
+a{
+        color: blue;
+}
