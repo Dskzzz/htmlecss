@@ -28,7 +28,6 @@
 
 body{
     background-color: var(--cor03);
-    margin: au;
 }
 
 header{
@@ -38,7 +37,7 @@ header{
     text-align: center;
     padding-top: 40px;
     min-height: 150px;
-    margin: auto;
+    min-width: 205px;
 }
 
 h1#cabeça{
@@ -49,8 +48,8 @@ h1#cabeça{
 
 p#cabeça{
     font-variant: var(--fonte-padrao);
-    font-size: 1.2em;
-    width: 500px;
+    font-size: 20px;
+    width: 400px;
     margin: auto;
     padding-right: 10px;
     padding-left: 10px;
