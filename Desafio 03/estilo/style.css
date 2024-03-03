@@ -28,6 +28,7 @@
 
 body{
     background-color: var(--cor03);
+    margin: au;
 }
 
 header{
@@ -36,9 +37,10 @@ header{
     background-image: linear-gradient(to bottom, var(--cor04), var(--cor05));
     text-align: center;
     padding-top: 40px;
-    min-height: 100px;
-
+    min-height: 150px;
+    margin: auto;
 }
+
 h1#cabeça{
     margin-bottom: 20px;
     font-size: 3em;
@@ -54,6 +56,7 @@ p#cabeça{
     padding-left: 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.514);
 }
+
 nav{
     text-align: center;
     padding: 10px;
@@ -63,10 +66,8 @@ nav{
 }
 
 main{
-    max-width: 300px;
-    min-width:  800px;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: white;
@@ -79,12 +80,14 @@ footer{
     text-align: center;
     background-color: black;
     font-size: 0.8em;
-    padding: 5px;
+    padding: 15px;
 }
 
 article>h1{
     font-family: var(--fonte-android);
     color: var(--cor05);
+    background-image: linear-gradient(to right, rgb(111, 239, 111), rgba(255, 255, 255, 0.676));
+    text-indent: 10px;
 
 }
 
@@ -93,6 +96,7 @@ article>h2{
     color: var(--cor05);
     font-size: 20px;
     text-indent: 10px;
+    background-image: linear-gradient(to right, rgb(111, 239, 111), rgba(255, 255, 255, 0.676));
 }
 
 article>p{
@@ -100,9 +104,8 @@ article>p{
     color: var(--cor05);
     margin: 15px 0px;
     text-align: justify;
-    text-indent: 20px;
-    font-size: 1em;
-    line-height: 2em;
+    text-indent: 10px;
+    font-size: 16px;
 }
 
 nav>a{
@@ -138,8 +141,7 @@ main a:hover{
 }
 
 img{
-    align-items: auto;
-    width: 100%;
+    
 }
 
 img.pequena{
@@ -175,9 +177,14 @@ article aside{
 aside p.main{
     padding: 10px;
     text-align: justify;
-    text-indent: 20px;
+    text-indent: 10px;
     font-size: 1em;
-    line-height: 2em;
+    line-height: 19px;
+}
+
+article p{
+    padding-top: 12px;
+    line-height: 19px;
 }
 
 div.video{
