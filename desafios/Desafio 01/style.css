@@ -1,0 +1,17 @@
+@charset "UTF-8"
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Slabo+27px&display=swap');
+
+:root{
+    --fonte-padrao: "Cinzel Decorative" , arial, verdana, sans-serif;
+
+}
+
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(82, 51, 92) ;
+    font-family: var(--fonte-padrao)
+}
