@@ -15,6 +15,15 @@ body{
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+    background-attachment: fixed;
+}
+
+iframe{
+    position: relative;
+    top: 85px;
+    left: 22px;
+    width: 268px;
+    height: 470px;
 }
 
 main{
@@ -27,10 +36,25 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 610px;
-    width: 500px;
+    height: 637px;
+    width: 311px;
     background-image: url("../imagens/frame-iphone.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 210px;
+}
+
+
+img{
+    width: 70px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 1px 1px 5px black;
+    box-sizing: border-box;
+}
+
+img:hover{
+    border: 2px solid white;
+    transform: translate(-3%, -3%);
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 10px black;
 }
