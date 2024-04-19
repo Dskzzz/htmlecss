@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <h1>Meu primeiro Formulario</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+
+        <p>
+            <label for="isel">Selecione Um Estado</label>
+            <select name="Select" id="isel">
+                <option value="" selected>Escolha um Estado ou uma capital</option>
+                <option value="">Bahia</option>
+                <option value="">Espirito Santo</option>
+                <option value="">São Paulo</option>
+                <option value="">Rio de Janeiro</option>
+
+                <optgroup label="Capitais">
+                    <option value="">Salvador</option>
+                    <option value="">vitoria</option>
+                    <option value="">São Paulo</option>
+                    <option value="">Rio de Janeiro</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Selecione Sua profissão </label>
+            <input type="text" name="prof" id="iprof" list="litprof">
+            <datalist id="litprof">
+                <option value="">Desenvolvedor</option>
+                <option value="">Assistente Administrativo</option>
+                <option value="">Professor</option>
+                <option value="">Medico</option>
+                <option value="">Atleta</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="itex">Nos de a sua opnião</label><br>
+            <textarea name="text" id="itex" cols="40" rows="10"></textarea>
+        </p>
+        
+        <input type="submit" value="Enviar">
+    </form>    
+</body>
+</html>
